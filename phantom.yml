@@ -1,5 +1,5 @@
 language: php:5.5.6
-
+cache: vendor
 commands:
   - composer install --no-interaction --prefer-source
   - vendor/bin/phpunit
